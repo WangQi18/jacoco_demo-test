@@ -20,5 +20,11 @@ public class HelloController {
         return "haaaha!";
     }
 
+    @RequestMapping("qwer")
+    public String qwer() {
+        return "2333!";
+    }
+
+
 
 }

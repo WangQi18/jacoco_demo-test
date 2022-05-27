@@ -10,20 +10,21 @@ public class HelloController {
         return "Hello World!";
     }
 
-    @RequestMapping("byebye")
-    public String byebye() {
-        return "byebye!";
-    }
-
     @RequestMapping("haaaha")
     public String haaaha() {
-        return "haaaha!";
+        return "ha32ha!";
     }
 
     @RequestMapping("qwer")
     public String qwer() {
         return "2333!";
     }
+
+    @RequestMapping("weqweq")
+    public String weqweq() {
+        return "2333!";
+    }
+
 
 
 

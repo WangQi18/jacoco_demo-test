@@ -10,6 +10,11 @@ public class HelloController {
         return "Hello World!";
     }
 
+    @RequestMapping("byebye")
+    public String byebye() {
+        return "byebye!";
+    }
+
     @RequestMapping("haaaha")
     public String haaaha() {
         return "ha32ha!";
@@ -24,8 +29,6 @@ public class HelloController {
     public String weqweq() {
         return "2333!";
     }
-
-
 
 
 }

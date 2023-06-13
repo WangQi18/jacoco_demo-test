@@ -15,20 +15,21 @@ public class HelloController {
         return "byebye!";
     }
 
-    @RequestMapping("haaaha")
+    @RequestMapping("haaaha123")
     public String haaaha() {
-        return "ha32ha!";
+        return "ha32ha!123";
     }
 
-    @RequestMapping("qwer")
+    @RequestMapping("qwer123")
     public String qwer() {
-        return "2333!";
+        return "2333!12313";
     }
 
-    @RequestMapping("weqweq")
+    @RequestMapping("newlink")
     public String weqweq() {
-        return "2333!";
+        return "newlink!";
     }
+
 
 
 }
